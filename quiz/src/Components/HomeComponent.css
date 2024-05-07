@@ -1,0 +1,153 @@
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+body{
+    background-color: #473a8d;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20vh;
+}
+
+.play-btn{
+    background-color: #0ab306;
+    border-radius: 25px;
+    width: 15vw;
+    height: 7vh;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    padding-bottom: 40px;
+}
+
+.home-div{
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+}
+
+.quiz-div{
+    background-color: white;
+    border-left: 5px solid rgb(198, 113, 255);
+    padding: 20px;
+    height: 70vh;
+    color: black;
+}
+
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.option-div{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    margin-left: 170px;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 500px;
+}
+
+.btn-div > div{
+    padding: 5px 15px;
+}
+
+
+.option-div > div {
+    background-color: blue;
+    text-align: center;
+    border-radius: 50px;
+    width: 30vw;
+    height: 6vh;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.prev-btn{
+    background-color: blue;
+}
+
+.quit-btn{
+    background-color: red;
+}
+
+.nxt-btn{
+background-color: green;
+}
+
+.res-container{
+    display: grid;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.res-container > h1{
+    color: green;
+}
+
+.res-div{
+    background-color: white;
+    padding: 50px;
+    width: 60vw;
+    border-left: 5px solid blue;
+    height: 70vh;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    color: black;
+}
+
+.res-div > h3 {
+    text-align: center;
+}
+
+.res-div > h2{
+    color: blue;
+    font-size: 40px;
+}
+
+.res-div > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.res-div > div > h6{
+font-size: 19px;
+font-weight: 100;
+}
+
+.res-div > div  > p {
+    width: 30vw;
+}
+
+.play-again-btn{
+    background-color: #3b83ff;
+    border: 1p solid #5b58aa;
+    margin-right: 50px;
+    color: black;
+}
+
+.back-to-home-btn{
+    background-color: #76ff64;
+    border: 1px solid #0ab306 ;
+    color: black;
+
+}
+
+.res-btn-div{
+    display: flex;
+    justify-content: center ;
+    margin-bottom: 100px;
+    
+}
